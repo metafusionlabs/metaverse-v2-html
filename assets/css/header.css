@@ -1,0 +1,32 @@
+.menu-bg {
+	/* background-color: #071827; */
+	backdrop-filter: blur(73px);
+	border-bottom: 1px solid #242323;
+}
+.header-area {
+	position: sticky;
+	left: 0;
+	right: 0;
+  padding:10px 0;
+	top:0px;
+	margin-bottom: -101px;
+  z-index: 999;
+}
+.header-right .primary-btn{
+    justify-content: center;
+    min-width: 232px;
+  }
+  .nav-link.active{
+    color:#FFB300  !important;
+   }
+   .nav-link{
+    color: #FFFFFFCC;
+    cursor: pointer;
+    font-weight: 500;
+   }
+   .nav-link:hover{
+    color: #fff;
+   }
+   .icon-bar i{
+    color:#fff;
+   }

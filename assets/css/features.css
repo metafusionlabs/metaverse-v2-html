@@ -1,0 +1,58 @@
+.features-section{
+    background-image: url('../images/bg/bg-3.png');
+    background-size: 100% 100%;
+    padding: 120px 0;
+    background-repeat:no-repeat;
+}
+.key-features-slider{
+    background-image: url('../images/bg/bg-4.png');
+    background-size: 100% 100%;
+    padding: 120px 0;
+    background-repeat:no-repeat;
+    padding: 70px 30px;
+    border-radius: 40px ;
+}
+.bg-09{
+    background-color:#0950BB !important;
+}
+.slick-arrow{
+    color:#fff;
+}
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    left:0%;
+}
+.arrow-right{
+    cursor: pointer;
+    z-index: 9;
+    border-radius: 50%;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0%;
+    transition: 0.5s;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
+}
+.arrow-right:hover,.arrow-left:hover{
+    background: linear-gradient(0deg, #FFB300 0%, #007BFF 100%);
+}
+.arrow-right i{
+    color:#fff;
+}

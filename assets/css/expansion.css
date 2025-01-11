@@ -1,0 +1,32 @@
+.expansion-icon{
+    height: 200px;
+    width: 200px;
+    background: #34333C;
+    border-radius: 20px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expansion-item{
+    background:#1E1C26;
+    padding: 20px;
+    border-radius: 20px;
+}
+.expansion-text ul{
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.expansion-text ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFFCC;
+}
+.expansion-text h5{
+    font-size:28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #FFFFFF;
+}
