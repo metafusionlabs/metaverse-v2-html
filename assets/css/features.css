@@ -24,7 +24,7 @@
     transform: translateY(-50%);
     height: 50px;
     width: 50px;
-    background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
+    /* background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,7 @@
     transition: 0.5s;
     cursor: pointer;
     left:0%;
+    border: 2px solid #007BFF;
 }
 .arrow-right{
     cursor: pointer;
