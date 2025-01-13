@@ -34,22 +34,6 @@ jQuery(document).ready(function ($) {
       checkScroll();
     });
 })
-function handleResize() {
-  // Select all tables with the class "mobile-view-table"
-  const elements = document.querySelectorAll('.mobile-view-table');
-  elements.forEach((element) => {
-    // Add or remove the "nowrap" class based on the window size
-    if (window.innerWidth <= 991) {
-      element.classList.add('nowrap');
-    } else {
-      element.classList.remove('nowrap');
-    }
-  });
-}
-
-// Run handleResize on page load and attach it to the resize event
-handleResize();
-window.addEventListener('resize', handleResize);
  // Smooth scroll with offset
  document.querySelectorAll('.nav-link').forEach(link => {
   link.addEventListener('click', event => {
