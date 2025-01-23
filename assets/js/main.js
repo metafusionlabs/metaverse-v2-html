@@ -1,6 +1,4 @@
-
 jQuery(document).ready(function ($) {
- 
     // menu bg add
     function checkScroll() {
       if ($(window).scrollTop() > 50) {
@@ -15,8 +13,7 @@ jQuery(document).ready(function ($) {
       autoplay: false,
       arrows: true,
       prevArrow: $('.arrow-left'),
-      nextArrow: $('.arrow-right'),
-       
+      nextArrow: $('.arrow-right'),  
     });
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
@@ -25,11 +22,9 @@ jQuery(document).ready(function ($) {
         $navbarText.removeClass("show");
       }
     });
-    // Run on page load
     $(document).ready(function () {
       checkScroll();
     });
-    // Run on scroll
     $(window).on("scroll", function () {
       checkScroll();
     });
@@ -41,7 +36,7 @@ jQuery(document).ready(function ($) {
     const targetId = event.currentTarget.getAttribute('data-target');
     const targetSection = document.getElementById(targetId);
     if (targetSection) {
-      const offset = 120; // Adjust the gap size as needed
+      const offset = 120;
       const sectionPosition = targetSection.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: sectionPosition - offset,
@@ -58,21 +53,19 @@ const observer = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        // Highlight the corresponding nav link
         const targetId = entry.target.id;
-
         navLinks.forEach(link => {
-          link.classList.remove('active'); // Remove active class from all links
+          link.classList.remove('active');
           if (link.getAttribute('data-target') === targetId) {
-            link.classList.add('active'); // Add active class to the current link
+            link.classList.add('active');
           }
         });
       }
     });
   },
   {
-    threshold: 0.6, // At least 60% of the section is visible to activate it
-    rootMargin: `-120px 0px 0px 0px` // Account for the offset
+    threshold: 0.6,
+    rootMargin: `-120px 0px 0px 0px`
   }
 );
 // Observe all sections
@@ -83,7 +76,6 @@ window.addEventListener('DOMContentLoaded', () => {
   const aboutSection = document.getElementById('home');
   if (aboutSection) {
     const targetId = aboutSection.id;
-
     navLinks.forEach(link => {
       link.classList.remove('active'); // Remove active class from all links
       if (link.getAttribute('data-target') === targetId) {
@@ -92,9 +84,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-
 window.addEventListener('load', () => {
   const preloader = document.getElementById('preloader');
   preloader.classList.add('loader-hide');
 });
- 

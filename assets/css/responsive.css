@@ -300,4 +300,7 @@
   .footer-bottom{
     justify-content: center !important;
   }
+  .footer-section::after {
+   background-size: cover;
+  }
 }

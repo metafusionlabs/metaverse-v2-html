@@ -4,19 +4,16 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background-color:#12101B;
-   
+  background-color:#12101B; 
 }
 p{
   font-size:18px;
   line-height: 30px;
   color:#FFFFFFCC;
 }
- 
 .container{
   max-width:1320px;
 }
- 
 a,
 a:hover {
   text-decoration: none;
@@ -67,10 +64,8 @@ h1,h2,h3,h4,h5,h6{
   border-radius: 40px;
   background: linear-gradient(90deg, #0F0A05 0%, #140C04 100%);
 }
- 
 .primary-btn:hover{
   background: #2F26A4;
-
 }
 .secondary-btn{
   background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
@@ -121,7 +116,6 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
   letter-spacing: -0.03em;
 }
- 
 .mt-10{
   margin-top: 10px !important;
 }
@@ -166,7 +160,6 @@ h1,h2,h3,h4,h5,h6{
 .mt-25{
   margin-top: 25px;
 }
-
 .mt-30{
   margin-top:20px;
 }
@@ -179,7 +172,6 @@ h1,h2,h3,h4,h5,h6{
   height: 1px;
   width: 100%;
   background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(217, 217, 217, 0) 100%);
-
 }
 .mt-40{
   margin-top: 40px;
@@ -193,8 +185,6 @@ h1,h2,h3,h4,h5,h6{
 .mb-20{
   margin-bottom: 20px;
 }
-
- 
 button,button:active{
   outline: none;
   border: none !important;
@@ -208,8 +198,8 @@ button,button:active{
 	position: absolute;
 	top: -1px;
 	bottom: -1px;
-	left: -2px;
-	right: -2px;
+	left: -1px;
+	right: -1px;
 	z-index: -1;
 	border-radius:40px;
   background:linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
@@ -232,7 +222,6 @@ button,button:active{
 	bottom: -1.5px;
 	z-index: -1;
 	border-radius: inherit;
-  
 	background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
 }
 .border-gradient-4:hover{
@@ -242,8 +231,8 @@ button,button:active{
   position: relative;
   display: inline-block;
   z-index: 9;
-  padding:1.5px; /* Matches the border thickness */
-  border-radius: 10px; /* Consistent with inner element */
+  padding:1.5px;
+  border-radius: 10px;
   background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%);
 }
 .border-gradient-2::after {
@@ -254,18 +243,17 @@ button,button:active{
   right: -1px;
   bottom: -1px;
   z-index: -1;
-  border-radius: inherit; /* Matches the parent's border-radius */
+  border-radius: inherit;
   background: linear-gradient(90deg, rgba(255, 179, 0, 0.6) 0%, rgba(0, 123, 255, 0.6) 100%);
 }
- 
 .border-gradient-2:hover{
   background: linear-gradient(0deg, #007BFF 0%, #8A2BE2 100%);
 }
 .border-gradient-2 {
   position: relative;
   display: inline-block;
-  padding:1px; /* Matches the border thickness */
-  border-radius: 20px; /* Consistent with inner element */
+  padding:1px;
+  border-radius: 20px;
   background: #FFFFFF0D;
 }
 .border-gradient-3::after {
@@ -282,8 +270,8 @@ button,button:active{
 .border-gradient-3 {
   position: relative;
   display: inline-block;
-  padding: 2px; /* Matches the border thickness */
-  border-radius:20px; /* Consistent with inner element */
+  padding: 2px;
+  border-radius:20px;
   background: rgba(255, 255, 255, 0.03);
 }
 .btn-3 {
@@ -315,7 +303,6 @@ button,button:active{
   0% {
     transform: translateY(-150px);
   }
-   
   100% {
     transform: translateY(20px);
   }
@@ -336,7 +323,6 @@ button,button:active{
     transform: scale(1);
   }
 }
- 
 @keyframes rotate360 {
   from {
       transform: rotate(0deg);
@@ -345,7 +331,6 @@ button,button:active{
       transform: rotate(360deg);
   }
 }
- 
 .white-border-gradient::after {
 	content: '';
 	position: absolute;
@@ -370,7 +355,6 @@ button,button:active{
   color: #fff;
   transition: 0.5s;
 }
-
 .circle-icon i{
   color:#fff;
   font-size: 25px;
@@ -464,7 +448,6 @@ button,button:active{
 	background-clip: text;
 	text-fill-color: transparent;
 }
- 
 .p-20{
   padding: 20px !important;
 }

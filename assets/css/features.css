@@ -24,7 +24,6 @@
     transform: translateY(-50%);
     height: 50px;
     width: 50px;
-    /* background: linear-gradient(90deg, #FFB300 0%, #007BFF 100%); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +55,7 @@
 }
 .arrow-right i{
     color:#fff;
+}
+.copyright-text p a{
+    color:#FFB300;
 }
